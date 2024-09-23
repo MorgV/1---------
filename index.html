@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <title>Яна Футорняк</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h1>Website design & Development</h1>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <div class="card-logo"></div>
+                <div class="right-side-card">
+                    <button class="card-button">get free trial</button>
+                    <div class="burger" onclick="changeImage()"><img id="burger" src="images/burger.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="card-bg">
+                <img src="/images/bg-card.svg" alt="">
+            </div>
+            <div class="card-body">
+                <div class="left-side">
+                    <div class="left-site-text">almighty <span class="text-accent">personal AI</span> assistant in you
+                        mobile</div>
+                    <div class="time">24/7</div>
+                </div>
+                <div class="center-side">
+                    fresh<div class="line">
+                        <div class="inline"></div>
+                    </div> convenient <div class="line">
+                        <div class="inline"></div>
+                    </div>fast
+                </div>
+                <div class="right-side">
+                    <div class="slider">
+                        <div class="slider-text">I can perform any task - from making an appointment with a doctor, to
+                            developing a business plan</div>
+                        <div class="slider-navigation">
+                            <div class="slider-point"></div>
+                            <div class="slider-arrows"></div>
+                        </div>
+                    </div>
+                    <div class="bottom-selector">
+                        <div class="selector-text">three subscription options</div>
+                        <div class="selector">
+                            <ul class="selector-items">
+                                <li>
+                                    <img src="/images/silver.svg" alt="">
+                                    <div>silver</div>
+                                </li>
+                                <li>
+                                    <img src="/images/gold.png" alt="">
+                                    <div>gold</div>
+                                </li>
+                                <li>
+                                    <img src="/images/platinum.svg" alt="">
+                                    <div>platinum</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script>
+    function changeImage() {
+        myImg = document.getElementById("burger");
+        console.log(myImg);
+        myImg.src = "./images/burger2.svg";
+    }
+
+</script>
+
+</html>
